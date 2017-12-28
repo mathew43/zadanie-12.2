@@ -14,4 +14,6 @@ function createTweet(input) {
     if (!quoteAuthor.length) {
         quoteAuthor = "Unknown author";
     }
+
+    var tweetText = "Quote of the day - " + quoteText + " Author: " + quoteAuthor;
 }
